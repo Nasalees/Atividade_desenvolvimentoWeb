@@ -1,0 +1,129 @@
+/*Estilização de tags*/
+body {
+  margin: 0px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h1 {
+  text-align: start;
+  font-size: 50px;
+  margin: 0px;
+}
+
+img {
+  width: 318px;
+  border-radius: 8px;
+  margin-left: 207px;
+}
+
+ul {
+  justify-self: center;
+}
+
+/*Grid | Flez*/
+.grid {
+  grid-template-columns: 300px 1fr;
+  display: grid;
+  border-bottom: 1px solid #dadada;
+}
+
+/*Header*/
+.logoBitcoin {
+  width: 258px;
+  margin: 0px;
+  padding: 10px;
+  margin-left: 248px;
+}
+
+.sobre {
+  grid-column: 2;
+}
+
+.listadeopcoes {
+  display: flex;
+  gap: 200px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+  align-self: center;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.listadeopcoes :hover {
+  color: #f6911d;
+}
+
+/*Head lines*/
+
+.headlines {
+  font-size: 40px;
+  padding-left: 60px;
+  margin-top: 48px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 56px;
+}
+
+/*Imagens*/
+
+.primeriSection {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 100px 141px;
+  justify-content: center;
+  height: 310px;
+}
+
+/*Textos*/
+.information {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  grid-column: 1;
+  margin-left: 151px;
+  align-self: center;
+  text-align: end;
+  font-size: 13px;
+  color: #4d5060;
+  padding-top: 120px;
+}
+
+/*Botões*/
+
+.buttom {
+  justify-self: end;
+  border-radius: 6px;
+  display: inline-block;
+  color: white;
+  background-color: #ff9e2f;
+  width: 126px;
+  padding: 20px;
+  align-self: end;
+  text-decoration: none;
+}
+
+.buttom:hover {
+  background-color: #ff8800;
+}
+
+/*Roda pé*/
+
+footer {
+  margin: 0px;
+  background-color: #090c14;
+  height: 60px;
+}
+
+.footerWords {
+  font-size: 10px;
+  margin-top: 48px;
+  color: white;
+  font-weight: 200;
+  padding-top: 20px;
+  margin-left: 188px;
+}
